@@ -11,15 +11,14 @@ const Footer: React.FC = () => {
             <p className="name-text text-xl font-bold">
               tejas<span className=" text-skyBlue">K</span>
             </p>
-            <p className="mt-1 text-sm text-gray-700">Full Stack Developer | Tech Enthusiast</p>
+            <p className="mt-1 text-sm text-gray-700 dark:text-white">Full Stack Developer | Tech Enthusiast</p>
           </div>
-          
           <div className="flex items-center gap-4">
-              <SocialIcon url='https://github.com'   />
-            
-              <SocialIcon url='https://linkedin.com' />
-            
-            
+              <SocialIcon url='https://github.com/tejas7410' />
+
+              <SocialIcon url='https://www.linkedin.com/in/tejas-kangule-614b96296/' />
+
+
               <SocialIcon url='https://email.google.com' />
           </div>
         </div>

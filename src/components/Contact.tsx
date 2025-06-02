@@ -4,8 +4,9 @@ import { Card, CardContent } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { Textarea } from '@/components/ui/textarea';
-import { Github, Linkedin, Mail } from 'lucide-react';
+import {  Mail } from 'lucide-react';
 import { useToast } from '@/components/ui/use-toast';
+import { SocialIcon } from 'react-social-icons';
 
 const Contact: React.FC = () => {
   const { toast } = useToast();
@@ -109,7 +110,7 @@ const Contact: React.FC = () => {
               
               <div className="space-y-6">
                 <a 
-                  href="mailto:tejaskangule@example.com" 
+                  href="mailto:kanguletejas322@gmail.com" 
                   className="flex items-center gap-4 text-gray-800 dark:text-gray-200 hover:text-skyBlue transition-colors"
                 >
                   <div className="w-10 h-10 rounded-full bg-sky-100 dark:bg-sky-900 flex items-center justify-center">
@@ -117,37 +118,36 @@ const Contact: React.FC = () => {
                   </div>
                   <div>
                     <p className="font-medium">Email</p>
-                    <p className="text-sm text-gray-600 dark:text-gray-400">tejaskangule@example.com</p>
+                    <p className="text-sm text-gray-600 dark:text-gray-400">kanguletejas322@gmail.com</p>
                   </div>
                 </a>
                 
                 <a 
-                  href="https://linkedin.com/in/tejaskangule" 
+                  href="https://www.linkedin.com/in/tejas-kangule-614b96296/" 
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center gap-4 text-gray-800 dark:text-gray-200 hover:text-skyBlue transition-colors"
                 >
                   <div className="w-10 h-10 rounded-full bg-sky-100 dark:bg-sky-900 flex items-center justify-center">
-                    <Linkedin size={20} className="text-skyBlue" />
+                    <SocialIcon url="https://www.linkedin.com/in/tejas-kangule-614b96296/" bgColor="transparent" fgColor="#0A66C2" />
                   </div>
                   <div>
                     <p className="font-medium">LinkedIn</p>
                     <p className="text-sm text-gray-600 dark:text-gray-400">linkedin.com/in/tejaskangule</p>
                   </div>
                 </a>
-                
                 <a 
-                  href="https://github.com/tejaskangule" 
+                  href="https://github.com/tejas7410" 
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center gap-4 text-gray-800 dark:text-gray-200 hover:text-skyBlue transition-colors"
                 >
                   <div className="w-10 h-10 rounded-full bg-sky-100 dark:bg-sky-900 flex items-center justify-center">
-                    <Github size={20} className="text-skyBlue" />
+                    <SocialIcon url="https://github.com/tejas7410" bgColor="transparent" fgColor="#181717" />
                   </div>
                   <div>
                     <p className="font-medium">GitHub</p>
-                    <p className="text-sm text-gray-600 dark:text-gray-400">github.com/tejaskangule</p>
+                    <p className="text-sm text-gray-600 dark:text-gray-400">github.com/tejas7410</p>
                   </div>
                 </a>
               </div>
