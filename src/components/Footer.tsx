@@ -1,46 +1,30 @@
 
 import React from 'react';
-import { Github, Linkedin, Mail } from 'lucide-react';
+import {SocialIcon} from "react-social-icons"
 
 const Footer: React.FC = () => {
   return (
-    <footer className="py-8 bg-gray-900 text-white">
-      <div className="container mx-auto px-4 md:px-8">
-        <div className="flex flex-col md:flex-row justify-between items-center">
-          <div className="mb-4 md:mb-0">
-            <p className="text-xl font-bold name-text">
-              tejas<span className="text-skyBlue">K</span>
+    <footer className="py-8 text-black dark:text-white bg-white dark:bg-gray-900 border-t-4 border-gray-200 dark:border-gray-800">
+      <div className="md:px-8 container px-4 mx-auto">
+        <div className="md:flex-row flex flex-col items-center justify-between">
+          <div className="md:mb-0 mb-4">
+            <p className="name-text text-xl font-bold">
+              tejas<span className=" text-skyBlue">K</span>
             </p>
-            <p className="text-gray-400 text-sm mt-1">Full Stack Developer | Business Strategist</p>
+            <p className="mt-1 text-sm text-gray-700">Full Stack Developer | Tech Enthusiast</p>
           </div>
           
           <div className="flex items-center gap-4">
-            <a 
-              href="https://github.com/tejaskangule" 
-              target="_blank" 
-              rel="noopener noreferrer"
-              className="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center hover:bg-skyBlue transition-colors"
-            >
-              <Github size={20} />
-            </a>
-            <a 
-              href="https://linkedin.com/in/tejaskangule" 
-              target="_blank" 
-              rel="noopener noreferrer"
-              className="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center hover:bg-skyBlue transition-colors"
-            >
-              <Linkedin size={20} />
-            </a>
-            <a 
-              href="mailto:tejaskangule@example.com"
-              className="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center hover:bg-skyBlue transition-colors"
-            >
-              <Mail size={20} />
-            </a>
+              <SocialIcon url='https://github.com'   />
+            
+              <SocialIcon url='https://linkedin.com' />
+            
+            
+              <SocialIcon url='https://email.google.com' />
           </div>
         </div>
         
-        <div className="border-t border-gray-800 mt-6 pt-6 text-center text-gray-400 text-sm">
+        <div className="pt-6 mt-6 text-sm text-center text-gray-400 border-t border-gray-800">
           <p>&copy; {new Date().getFullYear()} Tejas Kangule. All rights reserved.</p>
         </div>
       </div>

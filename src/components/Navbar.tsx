@@ -3,11 +3,13 @@ import React, { useState, useEffect } from 'react';
 import { cn } from '@/lib/utils';
 import { Moon, Sun } from 'lucide-react';
 import { useTheme } from '@/context/ThemeContext';
+import { useNavigate } from 'react-router-dom';
 
 const Navbar: React.FC = () => {
   const [isScrolled, setIsScrolled] = useState(false);
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const { theme, toggleTheme } = useTheme();
+  const navigate = useNavigate();
 
   useEffect(() => {
     const handleScroll = () => {
@@ -53,31 +55,31 @@ const Navbar: React.FC = () => {
           {/* Desktop Menu */}
           <div className="hidden md:flex items-center space-x-8">
             <button 
-              onClick={() => scrollToSection('about')}
+              onClick={() => navigate('/about')}
               className="font-medium hover:text-skyBlue transition-colors dark:text-gray-200"
             >
               About
             </button>
             <button 
-              onClick={() => scrollToSection('projects')}
+              onClick={() => navigate('/projects')}
               className="font-medium hover:text-skyBlue transition-colors dark:text-gray-200"
             >
               Projects
             </button>
             <button 
-              onClick={() => scrollToSection('skills')}
+              onClick={() => navigate('/skills')}
               className="font-medium hover:text-skyBlue transition-colors dark:text-gray-200"
             >
               Skills
             </button>
             <button 
-              onClick={() => scrollToSection('experience')}
+              onClick={() => navigate('/experience')}
               className="font-medium hover:text-skyBlue transition-colors dark:text-gray-200"
             >
               Experience
             </button>
             <button 
-              onClick={() => scrollToSection('contact')}
+              onClick={() => navigate('/contact')}
               className="btn-primary"
             >
               Contact Me
@@ -141,31 +143,31 @@ const Navbar: React.FC = () => {
         >
           <div className="flex flex-col space-y-4 p-4">
             <button 
-              onClick={() => scrollToSection('about')}
+              onClick={() => navigate('/about')}
               className="py-2 font-medium hover:text-skyBlue transition-colors dark:text-gray-200"
             >
               About
             </button>
             <button 
-              onClick={() => scrollToSection('projects')}
+              onClick={() => navigate('/projects')}
               className="py-2 font-medium hover:text-skyBlue transition-colors dark:text-gray-200"
             >
               Projects
             </button>
             <button 
-              onClick={() => scrollToSection('skills')}
+              onClick={() => navigate('/skills')}
               className="py-2 font-medium hover:text-skyBlue transition-colors dark:text-gray-200"
             >
               Skills
             </button>
             <button 
-              onClick={() => scrollToSection('experience')}
+              onClick={() => navigate('/experience')}
               className="py-2 font-medium hover:text-skyBlue transition-colors dark:text-gray-200"
             >
               Experience
             </button>
             <button 
-              onClick={() => scrollToSection('contact')}
+              onClick={() => navigate('/contact')}
               className="btn-primary self-start"
             >
               Contact Me

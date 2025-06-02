@@ -10,17 +10,12 @@ import Contact from '@/components/Contact';
 import Footer from '@/components/Footer';
 import Preloader from '@/components/Preloader';
 
-const Index = () => {
+const Index = ({children}) => {
   return (
     <div className="overflow-hidden">
       <Preloader />
       <Navbar />
-      <Hero />
-      <About />
-      <Projects />
-      <Skills />
-      <Experience />
-      <Contact />
+      {children}
       <Footer />
     </div>
   );
