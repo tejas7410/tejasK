@@ -12,25 +12,11 @@ interface ExperienceItem {
 
 const experiences: ExperienceItem[] = [
   {
-    title: "Backend Developer Intern",
-    company: "Tech Solutions Inc.",
-    period: "Jun 2023 - Aug 2023",
+    title: "Software Developer Intern",
+    company: "Wimz and Care",
+    period: "Jun 2024 - Aug 2024",
     description: "Developed and maintained RESTful APIs for a microservices architecture, improving overall system performance by 30%. Implemented containerized development environments using Docker.",
     technologies: ["Node.js", "Express", "Docker", "MongoDB"]
-  },
-  {
-    title: "Real-time Applications Intern",
-    company: "WebSocket Innovations",
-    period: "Jan 2023 - Apr 2023",
-    description: "Built real-time collaborative features for a project management tool, enabling simultaneous document editing and instant notifications using Socket.io.",
-    technologies: ["Socket.io", "Redis", "Node.js", "JavaScript"]
-  },
-  {
-    title: "Frontend Developer Intern",
-    company: "UI Crafters",
-    period: "May 2022 - Aug 2022",
-    description: "Developed responsive web interfaces for enterprise clients using React. Implemented state management solutions with Redux and optimized frontend performance.",
-    technologies: ["React", "Redux", "TypeScript", "Styled Components"]
   }
 ];
 

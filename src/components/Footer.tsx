@@ -4,7 +4,7 @@ import {SocialIcon} from "react-social-icons"
 
 const Footer: React.FC = () => {
   return (
-    <footer className="py-8 text-black dark:text-white bg-white dark:bg-gray-900 border-t-4 border-gray-200 dark:border-gray-800">
+    <footer className="py-8 text-black dark:text-white bg-white dark:bg-gray-900 border-t-4 border-gray-200 dark:border-gray-800 fixed bottom-0 right-0 left-0">
       <div className="md:px-8 container px-4 mx-auto">
         <div className="md:flex-row flex flex-col items-center justify-between">
           <div className="md:mb-0 mb-4">

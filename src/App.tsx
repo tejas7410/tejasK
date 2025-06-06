@@ -18,8 +18,8 @@ import Contact from "./components/Contact";
 const queryClient = new QueryClient();
 
 const App = () => (
-  <QueryClientProvider client={queryClient}>
-    <ThemeProvider>
+  <QueryClientProvider client={queryClient} >
+    <ThemeProvider >
       <TooltipProvider>
         <Toaster />
         <Sonner />

@@ -12,7 +12,7 @@ import Preloader from '@/components/Preloader';
 
 const Index = ({children}) => {
   return (
-    <div className="overflow-hidden">
+    <div className="overflow-hidden w-full h-cover">
       <Preloader />
       <Navbar />
       {children}
