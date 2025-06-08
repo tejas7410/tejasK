@@ -8,7 +8,7 @@ import { useNavigate } from 'react-router-dom';
 const Hero: React.FC = () => {
   const navigate = useNavigate();
   return (
-    <section className="gradient-bg dark:bg-gradient-to-br dark:from-gray-900 dark:to-gray-800 flex items-center min-h-screen pt-16 overflow-hidden">
+    <section className="gradient-bg dark:bg-gradient-to-br dark:from-gray-900 dark:to-gray-800 flex items-center h-[80vh] pt-16 overflow-hidden">
       <div className="md:px-8 container px-4 mx-auto">
         <div className="md:grid-cols-2 md:gap-12 grid items-center gap-8">
           <motion.div 

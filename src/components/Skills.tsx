@@ -26,7 +26,7 @@ const skills: Skill[] = [
 
 const Skills: React.FC = () => {
   return (
-    <section id="skills" className="py-20 bg-cream dark:bg-gray-900">
+    <section id="skills" className="py-20 bg-cream dark:bg-gray-900 h-[80vh]">
       <div className="container mx-auto px-4 md:px-8">
         <h2 className="text-3xl md:text-4xl font-bold mb-2 heading-highlight dark:text-white">Skills</h2>
         <p className="text-gray-600 dark:text-gray-400 mb-12">Technologies and tools I work with</p>

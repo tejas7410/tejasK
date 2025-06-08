@@ -3,9 +3,9 @@ import React from 'react';
 
 const About: React.FC = () => {
   return (
-    <section id="about" className="bg-cream dark:bg-gray-900 py-20">
+    <section id="about" className="bg-cream dark:bg-gray-900 py-20 h-[80vh]">
       <div className="md:px-8 container px-4 mx-auto">
-        <div className="max-w-4xl mx-auto">
+        <div className="max-w-3xl mx-auto">
           <h2 className="md:text-4xl heading-highlight dark:text-white mb-2 text-3xl font-bold">About Me</h2>
           <p className="dark:text-gray-400 mb-8 text-gray-600">Get to know my background and journey</p>
           

@@ -15,7 +15,9 @@ const Index = ({children}) => {
     <div className="overflow-hidden w-full h-cover">
       <Preloader />
       <Navbar />
-      {children}
+       <main className="flex-1">
+        {children}
+      </main>
       <Footer />
     </div>
   );
