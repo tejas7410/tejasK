@@ -3,8 +3,10 @@ import React from 'react';
 import { Button } from '@/components/ui/button';
 import { motion } from 'framer-motion';
 import { Laptop, Terminal, Code, Underline, Subscript } from 'lucide-react';
+import { useNavigate } from 'react-router-dom';
 
 const Hero: React.FC = () => {
+  const navigate = useNavigate();
   return (
     <section className="gradient-bg dark:bg-gradient-to-br dark:from-gray-900 dark:to-gray-800 flex items-center min-h-screen pt-16 overflow-hidden">
       <div className="md:px-8 container px-4 mx-auto">
@@ -37,10 +39,7 @@ const Hero: React.FC = () => {
                   variant="outline"
                   className="border-skyBlue text-skyBlue hover:bg-sky-50 dark:hover:bg-sky-900 dark:text-skyBlue"
                   onClick={() => {
-                    const contactSection = document.getElementById('contact');
-                    if (contactSection) {
-                      contactSection.scrollIntoView({ behavior: 'smooth' });
-                    }
+                    navigate('/contact', { replace: true });
                   }}
                 >
                   Get In Touch
