@@ -104,7 +104,7 @@ const Contact: React.FC = () => {
             </CardContent>
           </Card>
           
-          <div className="flex flex-col justify-center">
+          <div >
             <div className="bg-white dark:bg-gray-800 rounded-xl shadow-md p-6 md:p-8 mb-8">
               <h3 className="text-xl font-bold mb-6 dark:text-white">Connect With Me</h3>
               
@@ -134,20 +134,6 @@ const Contact: React.FC = () => {
                   <div>
                     <p className="font-medium">LinkedIn</p>
                     <p className="text-sm text-gray-600 dark:text-gray-400">linkedin.com/in/tejaskangule</p>
-                  </div>
-                </a>
-                <a 
-                  href="https://github.com/tejas7410" 
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="flex items-center gap-4 text-gray-800 dark:text-gray-200 hover:text-skyBlue transition-colors"
-                >
-                  <div className="w-10 h-10 rounded-full bg-sky-100 dark:bg-sky-900 flex items-center justify-center">
-                    <SocialIcon url="https://github.com/tejas7410" bgColor="transparent" fgColor="#181717" />
-                  </div>
-                  <div>
-                    <p className="font-medium">GitHub</p>
-                    <p className="text-sm text-gray-600 dark:text-gray-400">github.com/tejas7410</p>
                   </div>
                 </a>
               </div>
