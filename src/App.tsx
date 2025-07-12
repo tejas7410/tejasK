@@ -14,6 +14,7 @@ import Projects from "./components/Projects";
 import Skills from "./components/Skills";
 import Experience from "./components/Experience";
 import Contact from "./components/Contact"; 
+import UpdatePage from "./components/UpdatePage.tsx";
 
 const queryClient = new QueryClient();
 
@@ -26,13 +27,13 @@ const App = () => (
         <AnimatePresence>
           <HashRouter>
             <Routes>
-              <Route path="/" element={<Index children={<Hero />} />} />
-              <Route path="/about" element={<Index children={<About />} />} />
+              {/* <Route path="/" element={<Index children={<Hero />} />} /> */}
+              {/* <Route path="/about" element={<Index children={<About />} />} />
               <Route path="/projects" element={<Index children={<Projects />} />} />
               <Route path="/skills" element={<Index children={<Skills />} />} />
               <Route path="/experience" element={<Index children={<Experience />} />} />
-              <Route path="/contact" element={<Index children={<Contact />} />} />
-              <Route path="*" element={<NotFound />} />
+              <Route path="/contact" element={<Index children={<Contact />} />} /> */}
+              <Route path="*" element={<UpdatePage />} />
             </Routes>
           </HashRouter>
         </AnimatePresence>

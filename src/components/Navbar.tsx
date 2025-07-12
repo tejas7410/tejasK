@@ -40,7 +40,7 @@ const Navbar: React.FC = () => {
         'fixed top-0 left-0 right-0 z-50 transition-all duration-300',
         isScrolled
           ? 'bg-white dark:bg-gray-900 bg-opacity-95 shadow-md py-2'
-          : 'bg-transparent py-4'
+          : 'bg-white dark:bg-gray-900 bg-transparent py-4'
       )}
     >
       <div className="container mx-auto px-4 md:px-8">
@@ -74,6 +74,7 @@ const Navbar: React.FC = () => {
             </button>
             <button 
               onClick={() => navigate('/experience')}
+              id='current'
               className="font-medium hover:text-skyBlue transition-colors dark:text-gray-200"
             >
               Experience
