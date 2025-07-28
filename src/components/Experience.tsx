@@ -11,13 +11,13 @@ interface ExperienceItem {
 }
 
 const experiences: ExperienceItem[] = [
-  {
-    title: "Software Developer Intern",
-    company: "Wimz and Care",
-    period: "Jun 2024 - Aug 2024",
-    description: "Developed and maintained RESTful APIs for a microservices architecture, improving overall system performance by 30%. Implemented containerized development environments using Docker.",
-    technologies: ["Node.js", "Express", "Docker", "MongoDB"]
-  }
+  // {
+  //   title: "Software Developer Intern",
+  //   company: "Wimz and Care",
+  //   period: "Jun 2024 - Aug 2024",
+  //   description: "Developed and maintained RESTful APIs for a microservices architecture, improving overall system performance by 30%. Implemented containerized development environments using Docker.",
+  //   technologies: ["Node.js", "Express", "Docker", "MongoDB"]
+  // }
 ];
 
 const Experience: React.FC = () => {
