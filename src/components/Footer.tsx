@@ -11,7 +11,7 @@ const Footer: React.FC = () => {
             <p className="name-text text-xl font-bold">
               tejas<span className=" text-skyBlue">K</span>
             </p>
-            <p className="mt-1 text-sm text-gray-700 dark:text-white">Full Stack Developer | Tech Enthusiast</p>
+            <p className="mt-1 text-sm text-gray-700 dark:text-white">Tech Savvy</p>
           </div>
           <div className="flex items-center gap-4">
               <SocialIcon url='https://github.com/tejas7410' />

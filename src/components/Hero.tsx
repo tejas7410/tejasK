@@ -23,9 +23,9 @@ const Hero: React.FC = () => {
                 Tejas Kangule
               </h1>
               <h2 className="md:text-2xl dark:text-gray-300 text-xl text-gray-700">
-                Full Stack Developer | Problem Solver | 
+                Backend Developer | Data Analyst | 
               </h2> <h2 className="md:text-2xl dark:text-gray-300 mb-6 text-xl text-gray-700">
-               Tech Savvy
+               Business Analyst
               </h2>
               
               {/* <p className="dark:text-gray-400 max-w-lg mb-8 text-gray-600">
