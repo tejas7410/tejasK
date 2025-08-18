@@ -80,6 +80,13 @@ const Navbar: React.FC = () => {
               Experience
             </button>
             <button 
+              onClick={() => navigate('/Ads')}
+              id='current'
+              className="font-medium hover:text-skyBlue transition-colors dark:text-gray-200"
+            >
+              Ads
+            </button>
+            <button 
               onClick={() => navigate('/contact')}
               className="btn-primary"
             >

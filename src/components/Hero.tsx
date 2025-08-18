@@ -22,10 +22,8 @@ const Hero: React.FC = () => {
               <h1 className="name-text md:text-5xl lg:text-6xl dark:text-white mb-4 text-4xl font-bold">
                 Tejas Kangule
               </h1>
-              <h2 className="md:text-2xl dark:text-gray-300 text-xl text-gray-700">
-                Backend Developer | Data Analyst | 
-              </h2> <h2 className="md:text-2xl dark:text-gray-300 mb-6 text-xl text-gray-700">
-               Business Analyst
+              <h2 className="md:text-2xl dark:text-gray-300 text-xl text-gray-700 p-3 mb-3">
+                Backend Developer |  Analyst  
               </h2>
               
               {/* <p className="dark:text-gray-400 max-w-lg mb-8 text-gray-600">
