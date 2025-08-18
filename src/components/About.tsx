@@ -14,9 +14,10 @@ const About: React.FC = () => {
               <div className="md:col-span-1">
                 <div className="border-skyBlue dark:border-sky-600 w-48 h-48 mx-auto overflow-hidden border-4 rounded-full shadow-md">
                   <img 
-                    src="../../../public/Profile.png"
+                    src="../../../public/Profile2.jpg"
                     alt="Your Photo"
-                    className="object-cover w-full h-full"
+                    className="object-cover"
+                    
                   />
                 </div>
               </div>

@@ -11,13 +11,13 @@ interface ExperienceItem {
 }
 
 const experiences: ExperienceItem[] = [
-  // {
-  //   title: "Software Developer Intern",
-  //   company: "Wimz and Care",
-  //   period: "Jun 2024 - Aug 2024",
-  //   description: "Developed and maintained RESTful APIs for a microservices architecture, improving overall system performance by 30%. Implemented containerized development environments using Docker.",
-  //   technologies: ["Node.js", "Express", "Docker", "MongoDB"]
-  // }
+  {
+    title: "Research Intern",
+    company: "ABV-IIITM Gwalior",
+    period: "May 2023 - June 2023",
+    description: "Developed a Next-Word Prediction Model leveraging LSTM neural networks in Keras, trained on a custom word-level tokenized corpus to simulate autocomplete functionality Built a scalable data preprocessing pipeline using NLTK for text cleaning, tokenization, and sequence encoding, ensuring efficient model training.",
+    technologies: ["Python", "LSTM", "NLTK"]
+  }
 ];
 
 const Experience: React.FC = () => {
