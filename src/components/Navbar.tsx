@@ -149,7 +149,7 @@ const Navbar: React.FC = () => {
             mobileMenuOpen ? "max-h-80" : "max-h-0"
           )}
         >
-          <div className="flex flex-col space-y-4 p-4">
+          <div className="flex flex-col space-y-1 p-4">
             <button 
               onClick={() => navigate('/about')}
               className="py-2 font-medium hover:text-skyBlue transition-colors dark:text-gray-200"
@@ -175,8 +175,14 @@ const Navbar: React.FC = () => {
               Experience
             </button>
             <button 
+              onClick={() => navigate('/Ads')}
+              className="py-2 font-medium hover:text-skyBlue transition-colors dark:text-gray-200"
+            >
+              Ads
+            </button>
+            <button 
               onClick={() => navigate('/contact')}
-              className="btn-primary self-start"
+              className="btn-primary self-start m-auto"
             >
               Contact Me
             </button>
