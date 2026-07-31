@@ -2,14 +2,12 @@ import fs from "fs";
 import path from "path";
 
 export function loadPortfolio() {
-  const filePath = path.join(
+  const filePath = path.resolve(
     process.cwd(),
     "server",
     "data",
     "knowledge-base.json"
   );
 
-  const file = fs.readFileSync(filePath, "utf8");
-
-  return JSON.parse(file);
+  return JSON.parse(fs.readFileSync(filePath, "utf8"));
 }
