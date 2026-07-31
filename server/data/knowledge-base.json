@@ -1,0 +1,26 @@
+{
+    "name": "Tejas Kangule",
+    "title": "Software Engineer",
+    "about": {
+        "summary": "Software Engineer with an Integrated B.Tech + MBA from ABV-IIITM Gwalior. Passionate about backend engineering, scalable systems, distributed architectures, automation, and AI-powered applications."
+    },
+    "education": {
+        "college": "ABV-IIITM Gwalior",
+        "degree": "Integrated B.Tech + MBA"
+    },
+    "experience": [
+        {
+            "company": "MSCI",
+            "role": "Technical Program Management Intern",
+            "duration": "Jan 2026 - Jul 2026",
+            "description": "Designed and automated enterprise reconciliation workflows and collaborated with engineering teams to improve software delivery processes."
+        }
+    ],
+    "projects": [],
+    "skills": [],
+    "contact": {
+        "email": "kanguletejas322@gmail.com",
+        "linkedin": "https://www.linkedin.com/in/tejas-kangule-614b96296/",
+        "github": "https://github.com/tejas7410"
+    }
+}

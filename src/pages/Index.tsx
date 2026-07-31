@@ -8,6 +8,7 @@ import Skills from '@/components/Skills';
 import Experience from '@/components/Experience';
 import Contact from '@/components/Contact';
 import Footer from '@/components/Footer';
+import Chatbot from '@/components/chatbot/Chatbot';
 import Preloader from '@/components/Preloader';
 
 const Index = ({children}) => {
@@ -19,6 +20,7 @@ const Index = ({children}) => {
         {children}
       </main>
       <Footer />
+       <Chatbot />
     </div>
   );
 };

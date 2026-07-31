@@ -8,7 +8,8 @@ import { ThemeProvider } from "./context/ThemeContext";
 import { AnimatePresence } from "framer-motion";
 import Index from "./pages/Index";
 import NotFound from "./pages/NotFound";
-import Ads from "./components/Ads";
+import Chatbot from "./components/chatbot/Chatbot";
+// import Ads from "./components/Ads";
 import Hero from "./components/Hero";
 import About from "./components/About";
 import Projects from "./components/Projects";
@@ -37,6 +38,7 @@ const App = () => (
               {/* <Route path="/Ads" element={<Index children={<Ads />} />} /> */}
               {/* <Route path="*" element={<UpdatePage />} /> */}
             </Routes>
+              {/* <Chatbot /> */}
           </HashRouter>
         </AnimatePresence>
       </TooltipProvider>

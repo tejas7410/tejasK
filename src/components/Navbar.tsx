@@ -3,13 +3,15 @@ import React, { useState, useEffect } from 'react';
 import { cn } from '@/lib/utils';
 import { Moon, Sun } from 'lucide-react';
 import { useTheme } from '@/context/ThemeContext';
-import { useNavigate } from 'react-router-dom';
+import { useNavigate, useLocation } from 'react-router-dom';
 
 const Navbar: React.FC = () => {
   const [isScrolled, setIsScrolled] = useState(false);
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const { theme, toggleTheme } = useTheme();
+
   const navigate = useNavigate();
+const location = useLocation();
 
   useEffect(() => {
     const handleScroll = () => {
@@ -33,7 +35,13 @@ const Navbar: React.FC = () => {
       element.scrollIntoView({ behavior: 'smooth' });
     }
   };
-
+const navLinkClass = (path: string) =>
+  cn(
+    "font-medium transition-colors",
+    location.pathname === path
+      ? "text-sky-400 dark:text-sky-400"
+      : "hover:text-skyBlue dark:text-gray-200"
+  );
   return (
     <nav
       className={cn(
@@ -55,34 +63,40 @@ const Navbar: React.FC = () => {
           {/* Desktop Menu */}
           <div className="hidden md:flex items-center space-x-8">
             <button 
+              onClick={() => navigate('/')}
+              className={navLinkClass("/")}
+            >
+              Home
+            </button>
+            <button 
               onClick={() => navigate('/about')}
-              className="font-medium hover:text-skyBlue transition-colors dark:text-gray-200"
+              className={navLinkClass("/about")}
             >
               About
             </button>
             <button 
               onClick={() => navigate('/projects')}
-              className="font-medium hover:text-skyBlue transition-colors dark:text-gray-200"
+              className={navLinkClass("/projects")}
             >
               Projects
             </button>
             <button 
               onClick={() => navigate('/skills')}
-              className="font-medium hover:text-skyBlue transition-colors dark:text-gray-200"
+              className={navLinkClass("/skills")}
             >
               Skills
             </button>
             <button 
               onClick={() => navigate('/experience')}
               id='current'
-              className="font-medium hover:text-skyBlue transition-colors dark:text-gray-200"
+              className={navLinkClass("/experience")}
             >
               Experience
             </button>
             {/* <button 
               onClick={() => navigate('/Ads')}
               id='current'
-              className="font-medium hover:text-skyBlue transition-colors dark:text-gray-200"
+              className={navLinkClass("/")}
             >
               Ads
             </button> */}

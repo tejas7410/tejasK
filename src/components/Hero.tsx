@@ -32,7 +32,7 @@ const Hero: React.FC = () => {
               <div className="flex flex-wrap gap-4">
                 <Button 
                   className="bg-skyBlue hover:bg-sky-600 text-white transition-colors"
-                  onClick={() => window.open('https://drive.google.com/file/d/1yRkS0uk-Kopxt5CsHFQ6BG6TBNdz0jXx/view?usp=sharing', '_blank')}
+                  onClick={() => window.open('https://drive.google.com/file/d/1HD03T6EcdCnjHmEDpo4_6v59eHsbMgJM/view?usp=sharing', '_blank')}
                 >
                   View Resume
                 </Button>

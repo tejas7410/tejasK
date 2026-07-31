@@ -3,11 +3,11 @@ import React from 'react';
 
 const About: React.FC = () => {
   return (
-    <section id="about" className="bg-cream dark:bg-gray-900 py-20 h-[80vh]">
+    <section id="about" className="bg-cream dark:bg-gray-900 py-20 min-h-screen">
       <div className="md:px-8 container px-4 mx-auto">
         <div className="max-w-3xl mx-auto">
           <h2 className="md:text-4xl heading-highlight dark:text-white mb-2 text-3xl font-bold">About Me</h2>
-          <p className="dark:text-gray-400 mb-8 text-gray-600">Get to know my background and journey</p>
+          <p className="dark:text-gray-400 mb-8 text-gray-600">Journey from a Student to a developer</p>
           
           <div className="dark:bg-gray-800 rounded-xl md:p-8 p-6 bg-white shadow-md">
             <div className="md:grid-cols-3 grid items-center gap-8 mb-8">
@@ -24,17 +24,34 @@ const About: React.FC = () => {
               
               <div className="md:col-span-2">
                 <p className="dark:text-gray-200 mb-4 leading-relaxed text-gray-800">
-                  I'm a <span className="text-skyBlue font-medium">B.Tech + MBA</span> student currently pursuing my academic journey at <span className="font-medium">IIIT Gwalior</span>. My educational background has provided me with a unique combination of technical knowledge and business acumen.
-                </p>
-                
-                <p className="dark:text-gray-200 leading-relaxed text-gray-800">
-                  I'm passionate about full stack development and enjoy building scalable, practical applications that solve real-world challenges. My focus is on creating tech that not only works, but also delivers value in a business context.
-                </p>
+  Hi, I'm <span className="text-skyBlue font-semibold">Tejas Kangule</span>, a
+  Software Engineer with an integrated <span className="font-medium">B.Tech + MBA</span>
+  degree from <span className="font-medium">ABV-IIITM Gwalior</span>. My academic
+  journey gave me a strong foundation in both technology and business, but I
+  discovered my passion lies in building software and solving real-world
+  problems through code.
+</p>
+
+<p className="dark:text-gray-200 mb-4 leading-relaxed text-gray-800">
+  Recently, I worked as a
+  <span className="font-medium"> Technical Program Management Intern at MSCI</span>,
+  where I collaborated across engineering teams, worked with Agile workflows,
+  and gained hands-on experience in software delivery, technical documentation,
+  project coordination, and stakeholder communication. The experience helped me
+  understand how large-scale software products are planned, built, and shipped.
+</p>
+
+<p className="dark:text-gray-200 mb-4 leading-relaxed text-gray-800">
+  Outside of work, I'm passionate about backend and full-stack development. I
+  enjoy designing scalable systems, building REST APIs, working with
+  microservices, databases, Docker, and cloud-native technologies, while
+  continuously exploring AI-powered applications and automation.
+</p>
               </div>
             </div>
             
             <p className="dark:text-gray-200 leading-relaxed text-gray-800">
-             Driven by curiosity and innovation, I'm especially interested in how emerging technologies can reshape industries and unlock new avenues for growth.
+             Driven by curiosity and continuous learning, I'm particularly interested in backend engineering, distributed systems, AI-powered applications, and emerging technologies that can transform the way people work and interact with software.
             </p>
           </div>
         </div>
