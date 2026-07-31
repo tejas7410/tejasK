@@ -1,5 +1,5 @@
 import { GoogleGenAI } from "@google/genai";
-import { buildSystemPrompt } from "./prompt";
+import { buildSystemPrompt } from "./prompt.ts";
 
 export async function askPortfolioAssistant(
   question: string

@@ -1,4 +1,4 @@
-import { loadPortfolio } from "./portfolio";
+import { loadPortfolio } from "./portfolio.ts";
 
 export function buildSystemPrompt(): string {
   const portfolio = loadPortfolio();
