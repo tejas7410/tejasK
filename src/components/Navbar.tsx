@@ -79,13 +79,13 @@ const Navbar: React.FC = () => {
             >
               Experience
             </button>
-            <button 
+            {/* <button 
               onClick={() => navigate('/Ads')}
               id='current'
               className="font-medium hover:text-skyBlue transition-colors dark:text-gray-200"
             >
               Ads
-            </button>
+            </button> */}
             <button 
               onClick={() => navigate('/contact')}
               className="btn-primary"
@@ -174,12 +174,12 @@ const Navbar: React.FC = () => {
             >
               Experience
             </button>
-            <button 
+            {/* <button 
               onClick={() => navigate('/Ads')}
               className="py-2 font-medium hover:text-skyBlue transition-colors dark:text-gray-200"
             >
               Ads
-            </button>
+            </button> */}
             <button 
               onClick={() => navigate('/contact')}
               className="btn-primary self-start m-auto"
