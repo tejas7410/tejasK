@@ -4,9 +4,9 @@ import path from "path";
 export function loadPortfolio() {
   const filePath = path.resolve(
     process.cwd(),
-    "server",
-    "data",
-    "knowledge-base.json"
+   "api",
+  "lib",
+  "knowledge-base.json"
   );
 
   return JSON.parse(fs.readFileSync(filePath, "utf8"));

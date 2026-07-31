@@ -1,5 +1,5 @@
 import type { VercelRequest, VercelResponse } from "@vercel/node";
-import { askPortfolioAssistant } from "../server/services/gemini.ts";
+import { askPortfolioAssistant } from "./lib/gemini.ts";
 
 export default async function handler(
   req: VercelRequest,
