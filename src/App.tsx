@@ -34,7 +34,7 @@ const App = () => (
               <Route path="/skills" element={<Index children={<Skills />} />} />
               <Route path="/experience" element={<Index children={<Experience />} />} />
               <Route path="/contact" element={<Index children={<Contact />} />} />
-              <Route path="/Ads" element={<Index children={<Ads />} />} />
+              {/* <Route path="/Ads" element={<Index children={<Ads />} />} /> */}
               {/* <Route path="*" element={<UpdatePage />} /> */}
             </Routes>
           </HashRouter>
