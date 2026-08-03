@@ -30,12 +30,12 @@ const Hero: React.FC = () => {
                 A dedicated developer passionate about crafting efficient, scalable web solutions and solving complex problems through clean code and continuous learning.
               </p> */}
               <div className="flex flex-wrap gap-4">
-                <Button 
-                  className="bg-skyBlue hover:bg-sky-600 text-white transition-colors"
-                  onClick={() => window.open('https://drive.google.com/file/d/1HD03T6EcdCnjHmEDpo4_6v59eHsbMgJM/view?usp=sharing', '_blank')}
-                >
-                  View Resume
-                </Button>
+                <Button
+  className="bg-skyBlue hover:bg-sky-600 text-white transition-colors"
+  onClick={() => window.open('/Tejas Resume .pdf', '_blank')}
+>
+  View Resume
+</Button>
                 <Button 
                   variant="outline"
                   className="border-skyBlue text-skyBlue hover:bg-sky-50 dark:hover:bg-sky-900 dark:text-skyBlue"
